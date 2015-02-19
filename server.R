@@ -1,8 +1,14 @@
 
-# This is the server logic for a Shiny web application.
-# You can find out more about building applications with Shiny here:
+# This Shiny web application shows summary volunteering data from x2VOL (http://www.x2vol.com).
+# It uses googleVis map charts to map this data; data may be filtered by start date and
+# claim level (claimed, verified, approved)
+# See also the Slidify presentation on githubpages at http://EricByrnes.github.com/x2VOL_Slides/
 #
-# http://shiny.rstudio.com
+# Deploy to shinyapps.io using:
+# > shinyapps::deployApp(".")
+# App is available at https://ericbyrnes.shinyapps.io/x2VOL_Claims/
+#
+# Additional help for shinyapps: http://shiny.rstudio.com/articles/shinyapps.html
 #
 
 suppressPackageStartupMessages(library(googleVis))
