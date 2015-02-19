@@ -6,7 +6,6 @@
 #
 
 suppressPackageStartupMessages(library(googleVis))
-suppressPackageStartupMessages(library(rCharts))
 suppressPackageStartupMessages(library(dplyr))
 library(shiny)
 
